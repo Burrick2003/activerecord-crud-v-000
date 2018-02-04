@@ -6,6 +6,5 @@ class CreateMovies < ActiveRecord::Migration
       t.string :director
       t.string :lead
       t.boolean :in_theaters
-      #t.timestamps null: false #knows when it was created / updated
   end
 end
